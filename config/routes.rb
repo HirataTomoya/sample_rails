@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   get "/" => "sample#index"
   get "sample/practice" => "sample#practice"
   get "sample/answer" => "sample#answer"
+
+  get "sample/add" => "sample#add"
+  post "sample/add_word" => "sample#add_word"
 end

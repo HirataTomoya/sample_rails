@@ -1,0 +1,13 @@
+
+<div>
+    <%= form_tag("/sample/add_word") do%>
+        <p>英単語</p>
+        <!-- name属性を追加してください -->
+        <input name="word_en">
+        <p>日本語訳</p>
+        <!-- name属性を追加してください -->
+        <input name="word_jp">
+        <input type="submit" value="保存">
+    <!-- form_tag用のendを追加してください -->
+    <% end%>
+</div>
