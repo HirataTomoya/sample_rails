@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  word_en: MyString
+  word_jp: MyString
+
+two:
+  word_en: MyString
+  word_jp: MyString

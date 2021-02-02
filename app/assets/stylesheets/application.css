@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+ .sample__index_h1{
+     margin: 20%;
+     text-align: center;
+ }
+
+ .sample__practice_word{
+    font-size: 50px;
+    margin: 10%;
+    text-align: center;
+}
+
+.sample__practice_button{
+    margin: 5%;
+    text-align: center;
+}
+
+.sample__answer_word{
+    font-size: 50px;
+    margin: 10%;
+    text-align: center;
+}
+
+.sample__answer_button{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.sample__answer_good{
+    font-size: 40px;
+    display: inline;
+    padding-right: 10%;
+}
+
+.sample__answer_bad{
+    font-size: 40px;
+    display: inline;
+    padding-left: 10%;
+}
